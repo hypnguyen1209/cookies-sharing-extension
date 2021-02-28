@@ -1,0 +1,19 @@
+{
+  "name": "cookies-sharing-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve",
+    "dev": "nodemon serve"
+  },
+  "keywords": [],
+  "author": "hypnguyen1209",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.2.9"
+  }
+}
