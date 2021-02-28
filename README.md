@@ -47,4 +47,7 @@ Initialize serve with the command:
 > npm start
 
 Well done!
+
 There is docker support if you want to run on containers. 💙
+
+Privacy Policy: http://extension.hypnguyen.com/policy.html
