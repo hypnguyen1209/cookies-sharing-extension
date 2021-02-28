@@ -19,10 +19,12 @@ Technology used:
 - Serve: NodeJS, Express, Firebase
 
 *How to use:*
+
 With the extension, we open developer mode in Chrome and Edge browser. The release version will be available soon on the Chorme webstore and Edge addon store.
 With serve, we can use it directly through the side I provide running on a firebase database. Or you can deploy it yourself to have a longer usage time depending on your needs.
 
 *How to install serve:*
+
 To deploy a server, you first need to configure the firebase and the Base URL by editing the config.json file in the root directory.
 
 ```json
@@ -37,6 +39,7 @@ To deploy a server, you first need to configure the firebase and the Base URL by
 ```
 
 To get the information of the firebase project, visit: https://console.firebase.google.com/project
+
 Then proceed to install the node package for serve by running the command:
 > npm i
 
