@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<style>
+    body {
+        margin: 15px;
+    }
+
+    .control.is-expanded {
+        width: 16.75em !important;
+    }
+</style>
+
+<body style="width: 570px;">
+    <div class="container">
+        <div class="notification is-hidden">
+            <button class="delete"></button>
+            <span id="notify-message"></span>
+        </div>
+        <nav class="panel is-warning">
+            <p class="panel-heading" id="title">Share cookies from </p>
+            <div class="row">
+                <div class="panel-block">
+                    <div class="control" id="option">
+                        <label class="radio" for="check-file"><input id="check-file" type="radio" name="foobar" checked> File </label>
+                        <label class="radio" for="check-url"><input id="check-url" type="radio" name="foobar"> URL </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel-block">
+                    <div class="field has-addons is-flexed">
+                        <div class="control is-expanded has-icons-left">
+                            <input class="is-hidden" type="file" id="import-file" accept=".json, .txt">
+                            <input id="password" class="input is-primary" type="text" placeholder="Password (nếu có)">
+                            <span class="icon is-small is-left"><i class="fas fa-lock"></i></span>
+                        </div>
+                        <div class="control">
+                            <button id="import" class="button is-primary is-outlined">Import Cookies</button>
+                        </div>
+                        <div class="control">
+                            <button id="export" class="button is-link is-outlined">Export Cookies</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<script src="popup.js"></script>
+
+</html>
