@@ -1,0 +1,8 @@
+{
+  "firebase": {
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": ""
+  },
+  "base_url": "test:5600"
+}
